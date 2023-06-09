@@ -105,21 +105,16 @@ background-color: rgba(0, 255, 0, 0.1)
 background-color: #ff9f1a;
 }
 
-
-
-
-
-
 #tourism {
     background-color: rgba(1, 205, 251, 0.653)
     }
     
     #tourism .articles article a {
-        background-color: rgba(0, 255, 208, 0.8)
+        background-color: rgba(39, 136, 118, 0.459)
     }
     
     #entertainment {
-        background-color: #ff4444;
+        background-color: #ff44449a;
     }
     
     #entertainment .articles article a {
