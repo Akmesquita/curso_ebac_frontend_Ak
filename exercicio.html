@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro</title>
+</head>
+<body>
+    <blockquote>
+        <fieldset style="background-color: rgb(221, 246, 255);">
+        <header>
+            <h1>Formulario de cadastro</h1>
+            <p><h3>curso ebac</h3></p>
+        </header>
+        </fieldset>
+        <footer>
+            <form>
+                <fieldset>
+                    <div>
+                        <label id="nome">Nome:</label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        <label id="sobrenome">Sobrenome:</label>
+                        <br />
+                        <input type="text">-
+                        <input type="text">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <label id="Email">Email:</label><br />
+                        <input type="email">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                    <table>
+                        <thead>
+                            <tr>marque as opções de acordo com a sua vida:</tr>
+                            <th>informações de saude:</th>
+                            <th>sim</th>
+                            <th>não</th>
+                            <th>info adicional</th>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td>tem alguma alergia?:</td>
+                            <td><input type="radio" name="tem alergia?" id="sim"/><label for="sim">sim</label></td>
+                            <td><input type="radio" name="tem alergia?" id="não"/><label for="sim">não</label></td>
+                            <td>Qual? <input type="text"></td>
+                            </tr>
+                            <tr>
+                            <td>tem alguma doença?:</td>
+                            <td><input type="radio" name="tem doença?" id="sim"/><label for="sim">sim</label></td>
+                            <td><input type="radio" name="tem doença?" id="não"/><label for="sim">não</label></td>
+                            <td>Qual? <input type="text"></td>
+                            </tr>
+                            <tr>
+                            <td>possui moradia propia?:</td>
+                            <td><input type="radio" name="tem moradia" id="sim"/><label for="sim">sim</label></td>
+                            <td><input type="radio" name="tem moradia" id="não"/><label for="sim">não</label></td>
+                            </tr>
+                            <tr>
+                            <td>possui filhos?:</td>
+                            <td><input type="radio" name="tem filhos?" id="sim"/><label for="sim">sim</label></td>
+                            <td><input type="radio" name="tem filhos?" id="não"/><label for="sim">não</label></td>
+                            <td>Quantos?<input type="number" min="0"></td>
+                            </tr>
+                            <tr>
+                            <td>possui animal de estimação?:</td>
+                            <td><input type="radio" name="tem animal de estimação?" id="sim"/><label for="sim">sim</label></td>
+                            <td><input type="radio" name="tem animal de estimação?" id="não"/><label for="sim">não</label></td>
+                            <td>Quantos?<input type="number" min="0"></td>
+                            </tr>
+                            <tr>
+                            <td>Cor forvorita:</td>
+                            <td><input type="color" name="cor favorita" id="cor favorita"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                    <p>Escreva sobre voçê:</p>
+                    <textarea></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <button style="background-color: rgb(230, 93, 93);" type="reset">
+                            Limpar
+                        </button>
+                        <button style="background-color: rgb(174, 231, 116);" type="submit">
+                            Enviar
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </footer>
+    </blockquote>
+</body>
+</html>
